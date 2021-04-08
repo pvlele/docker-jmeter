@@ -14,7 +14,7 @@ With the script [build.sh](build.sh) you can change JMeter and Plugin version.
 
 ### Build Options
 
-To build image locally update below parameters  in  [build.sh](build.sh)  Default values if not passed to [build.sh](build.sh):
+To build image locally update below parameters  in  [build.sh](build.sh) <br/> Default values if not passed to [build.sh](build.sh):
 - **JMETER_VERSION** - JMeter version, default ``5.4.1``
 - **PLUGIN_VERSION** - JMeter Plugin version, default ``1.6`` 
 - **CMDRUNNER_VERSION** - CMD Runner version, default ``2.2`` 

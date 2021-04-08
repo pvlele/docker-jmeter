@@ -1,11 +1,11 @@
 # Docker-Jmeter
 ## JMeter-5.4.1 Image on Docker Hub
 
--Docker image for [Apache JMeter](http://jmeter.apache.org).
--This image installs plugin in run time.
--Find Images of this repo on [Docker Hub](https://hub.docker.com/r/justb4/jmeter).
--Image size - 642 MB
--Base Image - Ubuntu
+- Docker image for [Apache JMeter](http://jmeter.apache.org).
+- This image installs plugin in run time.
+- Find Images of this repo on [Docker Hub](https://hub.docker.com/r/justb4/jmeter).
+- Image size - 642 MB
+- Base Image - Ubuntu
 
 ## To build new jmeter image
 

@@ -3,7 +3,7 @@
 
 - Docker image for [Apache JMeter](http://jmeter.apache.org).
 - This image installs the plugin in run time.
-- Find an image of this repo on [Docker Hub](https://github.com/pvlele/docker-jmeter).
+- Find an image of this repo on [Docker Hub](https://hub.docker.com/r/pvlele/jmeter).
 - Image size - 642 MB
 - Base Image - Ubuntu
 

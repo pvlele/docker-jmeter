@@ -30,10 +30,10 @@ This image will run jmeter in non-gui mode.
 
 1. git clone https://github.com/pvlele/docker-jmeter.git
 2. If your test needs plugins. Update  [plugins.txt](plugins.txt).
-3. All the plugins need to be space-separated.
+3. All the plugins need to be space-separated. See example  [plugins.txt](plugins.txt)
 4. If your test does not require plugins, you keep [plugins.txt](plugins.txt) blank.
-5. keep your .jmx file in /tests folder.
-6. Update [test.sh](test.sh), if you want to pass JMeter parameters during run time.
+5. keep your .jmx file in /tests folder. 
+6. Update [test.sh](test.sh), if you want to pass JMeter parameters during run time. See example [test.sh](test.sh) 'From line numner 17'
 7. Execute [run.sh](run.sh).
   ```
    sh run.sh

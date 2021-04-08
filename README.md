@@ -2,12 +2,12 @@
 ## JMeter-5.4.1 Image on Docker Hub
 
 - Docker image for [Apache JMeter](http://jmeter.apache.org).
-- This image installs plugin in run time.
-- Find image of this repo on [Docker Hub](https://hub.docker.com/r/justb4/jmeter).
+- This image installs the plugin in run time.
+- Find an image of this repo on [Docker Hub](https://github.com/pvlele/docker-jmeter).
 - Image size - 642 MB
 - Base Image - Ubuntu
 
-## To build new jmeter image
+## To build a new JMeter image
 
 With the script [build.sh](build.sh) you can change JMeter and Plugin version.
 
@@ -19,7 +19,7 @@ To build image locally update below parameters  in  [build.sh](build.sh) <br/> D
 - **PLUGIN_VERSION** - JMeter Plugin version, default ``1.6`` 
 - **CMDRUNNER_VERSION** - CMD Runner version, default ``2.2`` 
 
-To build image.
+To build the image.
   ```
    sh build.sh
    ```
@@ -29,11 +29,11 @@ To build image.
 This image will run jmeter in non-gui mode.
 
 1. git clone https://github.com/pvlele/docker-jmeter.git
-2. If your test needs plugin. Update  [plugins.txt](plugins.txt).
-3. All the plugins need to be space seperated.
+2. If your test needs plugins. Update  [plugins.txt](plugins.txt).
+3. All the plugins need to be space-separated.
 4. If your test does not require plugins, you keep [plugins.txt](plugins.txt) blank.
-5. keep you .jmx file in /tests folder.
-6. Update [test.sh](test.sh), if you want to pass jmeter parameters during run time.
+5. keep your .jmx file in /tests folder.
+6. Update [test.sh](test.sh), if you want to pass JMeter parameters during run time.
 7. Execute [run.sh](run.sh).
   ```
    sh run.sh
